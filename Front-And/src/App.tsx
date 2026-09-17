@@ -1,0 +1,11 @@
+import Input from "./components/input";
+
+const App = () => {
+  return (
+    <p className="flex gap-2 bg-black p-6">
+      <Input placeholder="E-mail" type="text" />
+    </p>
+  );
+};
+
+export default App;

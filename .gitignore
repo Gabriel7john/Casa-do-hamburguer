@@ -1,0 +1,25 @@
+# Dependências
+node_modules
+**/node_modules
+
+# Variáveis de ambiente (NUNCA subir credenciais)
+.env
+**/.env
+.env.local
+**/.env.local
+
+# Build
+dist
+build
+**/dist
+**/build
+
+# Prisma
+**/prisma/migrations/dev.db
+
+# Editor / SO
+.vscode
+.DS_Store
+
+# Logs
+npm-debug.log*
